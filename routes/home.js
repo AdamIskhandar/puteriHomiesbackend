@@ -1,7 +1,6 @@
 import express from 'express';
 import { v4 as uuidv4, v4 } from 'uuid';
 import { verifyToken } from '../middleware/verifyToken.js';
-import mongoose from 'mongoose';
 
 import Bill from '../Models/Bills.js';
 import Member from '../Models/Members.js';

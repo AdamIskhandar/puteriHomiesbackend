@@ -9,7 +9,7 @@ dotenv.config();
 const router = express.Router();
 
 // User Collection from database
-import Member from '../Models/members.js';
+import Member from '../Models/Members.js';
 
 // GET HOME => UI ✔
 router.get('/', (req, res) => {
