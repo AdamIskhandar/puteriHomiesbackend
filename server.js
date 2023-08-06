@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 dotenv.config();
 
 //PORT
-const PORT = 8001;
+const PORT = process.env.PORT || 8001;
 const app = express();
 
 // connect to database
