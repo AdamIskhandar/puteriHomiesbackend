@@ -4,7 +4,7 @@ import { verifyToken } from '../middleware/verifyToken.js';
 import mongoose from 'mongoose';
 
 import Bill from '../Models/Bills.js';
-import Member from '../Models/members.js';
+import Member from '../Models/Members.js';
 import Wifi from '../Models/wifiPending.js';
 import Rumah from '../Models/rumahPending.js';
 import Api from '../Models/apiPending.js';
